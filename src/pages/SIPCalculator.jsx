@@ -31,8 +31,10 @@ const SIPCalculator = () => {
     returns: 0,
     startYear: 0,
     endYear: 0,
-    isCalculated: false,
   });
+
+  const [isCalculated, setisCalculated] = useState(false);
+  const [buttonText, setbuttonText] = useState('Caalculate');
 
   const [graph, setgraph] = useState({
     xAxis: [],
@@ -41,12 +43,13 @@ const SIPCalculator = () => {
   });
 
   const onHandleChange = (name) => (e) => {
-    setvalues({ ...values, isCalculated: false });
     setvalues({ ...values, [name]: e.target.value });
+    setisCalculated(false);
   };
 
   const calculateSIP = (e) => {
     e.preventDefault();
+    setbuttonText('Calculating...');
     var x = [];
     var y = [];
     var k = [];
@@ -63,7 +66,8 @@ const SIPCalculator = () => {
       }
     }
     setgraph({ ...graph, xAxis: x, yAxis: y, invested: k });
-    setvalues({ ...values, isCalculated: true });
+    setbuttonText('Calculate');
+    setisCalculated(true);
   };
 
   const sipForm = () => {
@@ -136,7 +140,7 @@ const SIPCalculator = () => {
             style={{ boxShadow: "0px 0px 0px 0px" }}
             onClick={calculateSIP}
           >
-            Calculate
+            {buttonText}
           </button>
         </div>
       </div>
@@ -243,7 +247,7 @@ const SIPCalculator = () => {
       </div>
       <div className="container">
         <div className="text-center col-md-6 offset-md-3">
-          {values.isCalculated ? (
+          {isCalculated ? (
             <div className="center">
               <Chart options={options} series={series} width="600px" />
             </div>
