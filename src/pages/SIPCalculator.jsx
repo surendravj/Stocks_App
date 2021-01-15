@@ -2,18 +2,68 @@ import React, { useState } from "react";
 import TopSection from "../components/top-section";
 import Navbar from "../components/Navbar";
 import "../App.css";
-import Test from "../test";
+import data from "../demo.json";
+import Chart from "react-apexcharts";
 
 const SIPCalculator = () => {
+  const years = [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+  ];
+
   const [values, setvalues] = useState({
     amount: 0,
     period: 0,
     returns: 0,
+    startYear: 0,
+    endYear: 0,
+    isCalculated: false,
+  });
+
+  const [graph, setgraph] = useState({
+    xAxis: [],
+    yAxis: [],
+    invested: [],
   });
 
   const onHandleChange = (name) => (e) => {
+    setvalues({ ...values, isCalculated: false });
     setvalues({ ...values, [name]: e.target.value });
-    console.log(values);
+  };
+
+  const calculateSIP = (e) => {
+    e.preventDefault();
+    var x = [];
+    var y = [];
+    var k = [];
+    for (var i = 0; i < data.length; i++) {
+      var year = new Date(data[i].Date).getFullYear();
+      if (
+        parseInt(values.startYear) <= year &&
+        parseInt(values.endYear) >= year
+      ) {
+        var date = new Date(JSON.parse(JSON.stringify(data[i].Date))).getTime();
+        x.push(date);
+        y.push(JSON.parse(JSON.stringify(data[i].gained)));
+        k.push(JSON.parse(JSON.stringify(data[i].invested)));
+      }
+    }
+    setgraph({ ...graph, xAxis: x, yAxis: y, invested: k });
+    setvalues({ ...values, isCalculated: true });
   };
 
   const sipForm = () => {
@@ -30,17 +80,37 @@ const SIPCalculator = () => {
           value={values.amount}
           onChange={onHandleChange("amount")}
         />
-        <label className="sip-label" htmlFor="sip-duration">
-          Investment Duration (Years) <span className="text-danger">*</span>
-        </label>
-        <input
-          className="form-control mb-4"
-          type="tel"
-          name="period"
-          id="sip-duration"
-          value={values.period}
-          onChange={onHandleChange("period")}
-        />
+        <div class="row mb-4">
+          <div class="col">
+            <label for="startyear" className="sip-label">
+              Start Year <span className="text-danger">*</span>
+            </label>
+            <select
+              onChange={onHandleChange("startYear")}
+              class="custom-select"
+            >
+              <option value={null} selected>
+                Select Start Year
+              </option>
+              {years.map((year) => {
+                return <option value={year}>{year}</option>;
+              })}
+            </select>
+          </div>
+          <div class="col">
+            <label for="endyear" className="sip-label">
+              End Year<span className="text-danger">*</span>
+            </label>
+            <select onChange={onHandleChange("endYear")} class="custom-select">
+              <option value={null} selected>
+                Select the end year
+              </option>
+              {years.map((year) => {
+                return <option value={year}>{year}</option>;
+              })}
+            </select>
+          </div>
+        </div>
 
         <label for="customRange1" className="sip-label">
           Expected Annual Returns (%) <span className="text-danger">*</span>
@@ -64,6 +134,7 @@ const SIPCalculator = () => {
           <button
             class="btn rounded waves-effect sip-btn"
             style={{ boxShadow: "0px 0px 0px 0px" }}
+            onClick={calculateSIP}
           >
             Calculate
           </button>
@@ -131,6 +202,31 @@ const SIPCalculator = () => {
     );
   };
 
+  const options = {
+    chart: {
+      id: "apexchart-example",
+      zoom: false,
+      menu: false,
+    },
+    xaxis: {
+      categories: graph.xAxis,
+      type: "datetime",
+    },
+  };
+
+  const series = [
+    {
+      name: "Invested Amount",
+      type: "area",
+      data: graph.yAxis,
+    },
+    {
+      name: "Gained Amount",
+      type: "line",
+      data: graph.invested,
+    },
+  ];
+
   return (
     <div>
       <TopSection />
@@ -146,11 +242,14 @@ const SIPCalculator = () => {
         </div>
       </div>
       <div className="container">
-      <div className=" px-5 text-center col-md-6 offset-md-3">
-        <Test />
+        <div className="text-center col-md-6 offset-md-3">
+          {values.isCalculated ? (
+            <div className="center">
+              <Chart options={options} series={series} width="600px" />
+            </div>
+          ) : null}
+        </div>
       </div>
-      </div>
-    
     </div>
   );
 };
