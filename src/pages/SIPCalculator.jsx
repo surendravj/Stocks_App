@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import "../App.css";
 import data from "../demo.json";
 import Chart from "react-apexcharts";
+import { numberWithCommas } from "../util/util";
 
 const SIPCalculator = () => {
   const years = [
@@ -25,16 +26,68 @@ const SIPCalculator = () => {
     2020,
   ];
 
+  // const months = [
+  //   {
+  //     month: "Jan",
+  //     num: 1,
+  //   },
+  //   {
+  //     month: "Feb",
+  //     num: 2,
+  //   },
+  //   {
+  //     month: "Mar",
+  //     num: 3,
+  //   },
+  //   {
+  //     month: "Apr",
+  //     num: 4,
+  //   },
+  //   {
+  //     month: "May",
+  //     num: 5,
+  //   },
+  //   {
+  //     month: "Jun",
+  //     num: 6,
+  //   },
+  //   {
+  //     month: "Jul",
+  //     num: 7,
+  //   },
+  //   {
+  //     month: "Aug",
+  //     num: 8,
+  //   },
+  //   {
+  //     month: "Sept",
+  //     num: 9,
+  //   },
+  //   {
+  //     month: "Oct",
+  //     num: 10,
+  //   },
+  //   {
+  //     month: "Nov",
+  //     num: 11,
+  //   },
+  //   {
+  //     month: "Dec",
+  //     num: 12,
+  //   },
+  // ];
+
   const [values, setvalues] = useState({
     amount: 0,
     period: 0,
     returns: 0,
     startYear: 0,
     endYear: 0,
+    result: 0,
   });
 
   const [isCalculated, setisCalculated] = useState(false);
-  const [buttonText, setbuttonText] = useState('Caalculate');
+  const [buttonText, setbuttonText] = useState("Calculate");
 
   const [graph, setgraph] = useState({
     xAxis: [],
@@ -49,7 +102,14 @@ const SIPCalculator = () => {
 
   const calculateSIP = (e) => {
     e.preventDefault();
-    setbuttonText('Calculating...');
+    var IReturns = values.returns / 100 / 12;
+    var n = values.endYear - values.startYear;
+    var finalAmount =
+      parseInt(values.amount) *
+      [Math.pow(IReturns + 1, n * 12) - 1] *
+      ((IReturns + 1) / IReturns);
+    setvalues({ ...values, result: Math.ceil(finalAmount) });
+    setbuttonText("Calculating...");
     var x = [];
     var y = [];
     var k = [];
@@ -66,7 +126,7 @@ const SIPCalculator = () => {
       }
     }
     setgraph({ ...graph, xAxis: x, yAxis: y, invested: k });
-    setbuttonText('Calculate');
+    setbuttonText("Calculate");
     setisCalculated(true);
   };
 
@@ -116,6 +176,38 @@ const SIPCalculator = () => {
           </div>
         </div>
 
+        {/* <div class="row mb-4">
+          <div class="col">
+            <label for="startmonth" className="sip-label">
+              Start Month <span className="text-danger">*</span>
+            </label>
+            <select
+              onChange={onHandleChange("startMonth")}
+              class="custom-select"
+            >
+              <option value={null} selected>
+                Select Start Year
+              </option>
+              {months.map((month) => {
+                return <option value={month.num}>{month.month}</option>;
+              })}
+            </select>
+          </div>
+          <div class="col">
+            <label for="endmonth" className="sip-label">
+              End Month<span className="text-danger">*</span>
+            </label>
+            <select onChange={onHandleChange("endMonth")} class="custom-select">
+              <option value={null} selected>
+                Select the end month
+              </option>
+              {months.map((month) => {
+                return <option value={month.num}>{month.month}</option>;
+              })}
+            </select>
+          </div>
+        </div> */}
+
         <label for="customRange1" className="sip-label">
           Expected Annual Returns (%) <span className="text-danger">*</span>
         </label>
@@ -161,20 +253,24 @@ const SIPCalculator = () => {
                 1
               </th>
               <td className="returns-text">Invested Amount</td>
-              <td className="returns-text">Rs.{values.amount}</td>
+              <td className="returns-text">
+                Rs.{numberWithCommas(values.amount)}
+              </td>
             </tr>
             <tr>
               <th className="returns-text" scope="row">
                 2
               </th>
               <td className="returns-text">Investment Duration</td>
-              <td className="returns-text">{values.period} Years</td>
+              <td className="returns-text">
+                {isCalculated?values.endYear - values.startYear:0} Years
+              </td>
             </tr>
             <tr>
               <th className="returns-text" scope="row">
                 3
               </th>
-              <td className="returns-text">Expected Annual Returns</td>
+              <td className="returns-text">Expected Returns Rate</td>
               <td className="returns-text">{values.returns}%</td>
             </tr>
             <tr>
@@ -183,7 +279,10 @@ const SIPCalculator = () => {
               </th>
               <td className="returns-text">Total money invested</td>
               <td className="returns-text">
-                Rs. {values.period * 12 * values.amount}
+                Rs.{" "}
+                {isCalculated?numberWithCommas(
+                  (values.endYear - values.startYear) * 12 * values.amount
+                ):0}
               </td>
             </tr>
             <tr>
@@ -191,14 +290,22 @@ const SIPCalculator = () => {
                 5
               </th>
               <td className="returns-text">Total future amount:</td>
-              <td className="returns-text">{values.returns}%</td>
+              <td className="returns-text">
+                Rs. {isCalculated?numberWithCommas(values.result):0}
+              </td>
             </tr>
             <tr>
               <th className="returns-text" scope="row">
                 6
               </th>
               <td className="returns-text">Returns Gained:</td>
-              <td className="returns-text">{values.returns}%</td>
+              <td className="returns-text">
+                Rs.{" "}
+                {isCalculated?numberWithCommas(
+                  values.result -
+                    (values.endYear - values.startYear) * 12 * values.amount
+                ):0}
+              </td>
             </tr>
           </tbody>
         </table>
@@ -210,7 +317,7 @@ const SIPCalculator = () => {
     chart: {
       id: "apexchart-example",
       zoom: false,
-      menu: false,
+      tools: false,
     },
     xaxis: {
       categories: graph.xAxis,
@@ -245,14 +352,13 @@ const SIPCalculator = () => {
           <div className="col-md-6 col-sm-8 ">{dataShow()}</div>
         </div>
       </div>
-      <div className="container">
-        <div className="text-center col-md-6 offset-md-3">
-          {isCalculated ? (
-            <div className="center">
-              <Chart options={options} series={series} width="600px" />
-            </div>
-          ) : null}
-        </div>
+      <div className="graph-div">
+        {isCalculated ? (
+          <div className="center">
+            <Chart options={options} series={series} width="600px" />
+          </div>
+        ) : null}
+        <div></div>
       </div>
     </div>
   );

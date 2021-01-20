@@ -138,3 +138,8 @@ hr {
     font-weight: 700;
     color: black;
 }
+
+.graph-div {
+    justify-content: center;
+    display: flex;
+}
