@@ -1,13 +1,14 @@
 import React from "react";
 import "../App.css";
 import logo from "../assets/logo.svg";
-import { Link } from "react-router-dom";
+import { Link,useHistory } from "react-router-dom";
 import { isAuthenticated } from "../util/db";
 
 const TopSection = () => {
+  const history=useHistory();
   const logout = () => {
     localStorage.clear();
-    window.location.reload();
+    history.push('/login')
   };
 
   return (
