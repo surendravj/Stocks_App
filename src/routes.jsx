@@ -6,7 +6,7 @@ import Store from "./Store/store";
 import MutualFundPage from "./pages/MutualFundPage";
 import SIPCalculator from "./pages/SIPCalculator";
 import LumpsumCalculator from "./pages/LumpsumCalculator";
-
+import LoginPage from "./pages/LoginPage";
 
 const Routes = () => {
   return (
@@ -17,6 +17,7 @@ const Routes = () => {
           <Route path="/funds" component={MutualFundPage} />
           <Route path="/Sip" component={SIPCalculator} />
           <Route path="/Lumpsum" component={LumpsumCalculator} />
+          <Route path="/login" component={LoginPage} />
         </Switch>
       </BrowserRouter>
     </Provider>

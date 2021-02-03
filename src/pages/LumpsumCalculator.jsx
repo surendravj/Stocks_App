@@ -1,6 +1,7 @@
 import React from "react";
 import TopSection from "../components/top-section";
 import Navbar from "../components/Navbar";
+
 const LumpsumCalculator = () => {
   return (
     <div>
