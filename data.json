@@ -1,0 +1,1546 @@
+﻿[
+    {
+        "date": "1/31/05 0:00",
+        "company1": "35.99",
+        "company2": "55.36",
+        "company3": "175.29",
+        "company4": "114.62",
+        "company5": "159.8"
+    },
+    {
+        "date": "2/28/05 0:00",
+        "company1": "35.55",
+        "company2": "54.45",
+        "company3": "186.01",
+        "company4": "104.24",
+        "company5": "144.05"
+    },
+    {
+        "date": "3/31/05 0:00",
+        "company1": "39.2",
+        "company2": "50.98",
+        "company3": "169.83",
+        "company4": "102.32",
+        "company5": "131.95"
+    },
+    {
+        "date": "4/29/05 0:00",
+        "company1": "37.21",
+        "company2": "56.42",
+        "company3": "170.61",
+        "company4": "105.64",
+        "company5": "137.55"
+    },
+    {
+        "date": "5/31/05 0:00",
+        "company1": "38.42",
+        "company2": "60.42",
+        "company3": "173.22",
+        "company4": "115.86",
+        "company5": "143.25"
+    },
+    {
+        "date": "6/30/05 0:00",
+        "company1": "41.1",
+        "company2": "59.82",
+        "company3": "181.25",
+        "company4": "125.46",
+        "company5": "164.05"
+    },
+    {
+        "date": "7/29/05 0:00",
+        "company1": "45.56",
+        "company2": "67.86",
+        "company3": "201.05",
+        "company4": "134.78",
+        "company5": "166.65"
+    },
+    {
+        "date": "8/31/05 0:00",
+        "company1": "48.46",
+        "company2": "76.46",
+        "company3": "230.42",
+        "company4": "136.74",
+        "company5": "165.5"
+    },
+    {
+        "date": "9/30/05 0:00",
+        "company1": "50.47",
+        "company2": "80.02",
+        "company3": "251.49",
+        "company4": "151.96",
+        "company5": "181.15"
+    },
+    {
+        "date": "10/31/05 0:00",
+        "company1": "48.4",
+        "company2": "80.05",
+        "company3": "241.31",
+        "company4": "144.14",
+        "company5": "161.45"
+    },
+    {
+        "date": "11/30/05 0:00",
+        "company1": "52.53",
+        "company2": "100.75",
+        "company3": "249.74",
+        "company4": "158.88",
+        "company5": "182.1"
+    },
+    {
+        "date": "12/30/05 0:00",
+        "company1": "57.88",
+        "company2": "101.63",
+        "company3": "272.05",
+        "company4": "179.2",
+        "company5": "197.2"
+    },
+    {
+        "date": "1/31/06 0:00",
+        "company1": "61.44",
+        "company2": "108.18",
+        "company3": "294.63",
+        "company4": "176.9",
+        "company5": "195.25"
+    },
+    {
+        "date": "2/28/06 0:00",
+        "company1": "66.96",
+        "company2": "116.11",
+        "company3": "303.94",
+        "company4": "220.86",
+        "company5": "243.7"
+    },
+    {
+        "date": "3/31/06 0:00",
+        "company1": "64.61",
+        "company2": "141.01",
+        "company3": "356.65",
+        "company4": "264.9",
+        "company5": "272"
+    },
+    {
+        "date": "4/29/06 0:00",
+        "company1": "64.39",
+        "company2": "138.11",
+        "company3": "345.48",
+        "company4": "259.6",
+        "company5": "289.5"
+    },
+    {
+        "date": "5/31/06 0:00",
+        "company1": "57.06",
+        "company2": "136.61",
+        "company3": "291.17",
+        "company4": "229.35",
+        "company5": "233.45"
+    },
+    {
+        "date": "6/30/06 0:00",
+        "company1": "59.21",
+        "company2": "126.24",
+        "company3": "239.73",
+        "company4": "216",
+        "company5": "229.05"
+    },
+    {
+        "date": "7/31/06 0:00",
+        "company1": "61.03",
+        "company2": "120.07",
+        "company3": "219.13",
+        "company4": "236",
+        "company5": "232.7"
+    },
+    {
+        "date": "8/31/06 0:00",
+        "company1": "63.59",
+        "company2": "131.5",
+        "company3": "215.08",
+        "company4": "251.05",
+        "company5": "234.45"
+    },
+    {
+        "date": "9/29/06 0:00",
+        "company1": "67.61",
+        "company2": "140.1",
+        "company3": "222.79",
+        "company4": "262.5",
+        "company5": "257.15"
+    },
+    {
+        "date": "10/31/06 0:00",
+        "company1": "66.88",
+        "company2": "150.35",
+        "company3": "228.75",
+        "company4": "262",
+        "company5": "233.65"
+    },
+    {
+        "date": "11/30/06 0:00",
+        "company1": "71.31",
+        "company2": "174.55",
+        "company3": "225.17",
+        "company4": "254.85",
+        "company5": "235.2"
+    },
+    {
+        "date": "12/29/06 0:00",
+        "company1": "73.65",
+        "company2": "186.45",
+        "company3": "218.87",
+        "company4": "251.35",
+        "company5": "216.4"
+    },
+    {
+        "date": "1/31/07 0:00",
+        "company1": "79.59",
+        "company2": "218.05",
+        "company3": "230.98",
+        "company4": "246.3",
+        "company5": "208.25"
+    },
+    {
+        "date": "2/28/07 0:00",
+        "company1": "73.71",
+        "company2": "212.1",
+        "company3": "247.31",
+        "company4": "231.95",
+        "company5": "176.35"
+    },
+    {
+        "date": "3/30/07 0:00",
+        "company1": "76.26",
+        "company2": "209.9",
+        "company3": "250.89",
+        "company4": "236.8",
+        "company5": "205.2"
+    },
+    {
+        "date": "4/30/07 0:00",
+        "company1": "79.09",
+        "company2": "233.3",
+        "company3": "253.35",
+        "company4": "210.95",
+        "company5": "199.3"
+    },
+    {
+        "date": "5/31/07 0:00",
+        "company1": "83.02",
+        "company2": "228.9",
+        "company3": "306.32",
+        "company4": "217.45",
+        "company5": "203.4"
+    },
+    {
+        "date": "6/29/07 0:00",
+        "company1": "81.02",
+        "company2": "233.85",
+        "company3": "315.09",
+        "company4": "208.15",
+        "company5": "188.6"
+    },
+    {
+        "date": "7/31/07 0:00",
+        "company1": "88.59",
+        "company2": "291.2",
+        "company3": "341.56",
+        "company4": "191.05",
+        "company5": "206.75"
+    },
+    {
+        "date": "8/31/07 0:00",
+        "company1": "94.3",
+        "company2": "321.15",
+        "company3": "313.94",
+        "company4": "166.7",
+        "company5": "208.3"
+    },
+    {
+        "date": "9/28/07 0:00",
+        "company1": "98.84",
+        "company2": "316.35",
+        "company3": "292.43",
+        "company4": "182.3",
+        "company5": "220.6"
+    },
+    {
+        "date": "10/31/07 0:00",
+        "company1": "103.23",
+        "company2": "387.4",
+        "company3": "308.13",
+        "company4": "178.8",
+        "company5": "207.05"
+    },
+    {
+        "date": "11/30/07 0:00",
+        "company1": "99",
+        "company2": "440.95",
+        "company3": "298.47",
+        "company4": "183.1",
+        "company5": "206.75"
+    },
+    {
+        "date": "12/31/07 0:00",
+        "company1": "109.96",
+        "company2": "503.85",
+        "company3": "294.69",
+        "company4": "212.65",
+        "company5": "213.7"
+    },
+    {
+        "date": "1/31/08 0:00",
+        "company1": "124.62",
+        "company2": "493.15",
+        "company3": "289.3",
+        "company4": "189.25",
+        "company5": "208.75"
+    },
+    {
+        "date": "2/29/08 0:00",
+        "company1": "111.5",
+        "company2": "477.2",
+        "company3": "275.71",
+        "company4": "207.1",
+        "company5": "227.5"
+    },
+    {
+        "date": "3/31/08 0:00",
+        "company1": "119.99",
+        "company2": "427.75",
+        "company3": "264.7",
+        "company4": "220",
+        "company5": "228.8"
+    },
+    {
+        "date": "4/30/08 0:00",
+        "company1": "128.03",
+        "company2": "441.05",
+        "company3": "270.82",
+        "company4": "213",
+        "company5": "250.25"
+    },
+    {
+        "date": "5/30/08 0:00",
+        "company1": "128.59",
+        "company2": "418.95",
+        "company3": "289.44",
+        "company4": "212.1",
+        "company5": "237.1"
+    },
+    {
+        "date": "6/30/08 0:00",
+        "company1": "114.93",
+        "company2": "374.75",
+        "company3": "287.8",
+        "company4": "211.05",
+        "company5": "207.15"
+    },
+    {
+        "date": "7/31/08 0:00",
+        "company1": "120.45",
+        "company2": "376.15",
+        "company3": "276.25",
+        "company4": "218.9",
+        "company5": "239.65"
+    },
+    {
+        "date": "8/29/08 0:00",
+        "company1": "122.93",
+        "company2": "425.45",
+        "company3": "288.18",
+        "company4": "240.05",
+        "company5": "245.4"
+    },
+    {
+        "date": "9/30/08 0:00",
+        "company1": "118.72",
+        "company2": "289.95",
+        "company3": "270.07",
+        "company4": "228.65",
+        "company5": "252.25"
+    },
+    {
+        "date": "10/31/08 0:00",
+        "company1": "95.49",
+        "company2": "184.9",
+        "company3": "234.64",
+        "company4": "177.2",
+        "company5": "221.75"
+    },
+    {
+        "date": "11/28/08 0:00",
+        "company1": "88.96",
+        "company2": "148.05",
+        "company3": "221.72",
+        "company4": "200.15",
+        "company5": "236.4"
+    },
+    {
+        "date": "12/31/08 0:00",
+        "company1": "89.5",
+        "company2": "151.9",
+        "company3": "264.49",
+        "company4": "186.6",
+        "company5": "250.3"
+    },
+    {
+        "date": "1/30/09 0:00",
+        "company1": "78.88",
+        "company2": "149.1",
+        "company3": "278.13",
+        "company4": "191.95",
+        "company5": "261.65"
+    },
+    {
+        "date": "2/27/09 0:00",
+        "company1": "78.64",
+        "company2": "140.45",
+        "company3": "263.02",
+        "company4": "191.5",
+        "company5": "253.5"
+    },
+    {
+        "date": "3/31/09 0:00",
+        "company1": "78.64",
+        "company2": "155.4",
+        "company3": "280.01",
+        "company4": "220.05",
+        "company5": "237.5"
+    },
+    {
+        "date": "4/29/09 0:00",
+        "company1": "88.83",
+        "company2": "173.1",
+        "company3": "320.16",
+        "company4": "240.75",
+        "company5": "234.75"
+    },
+    {
+        "date": "5/29/09 0:00",
+        "company1": "108",
+        "company2": "286.55",
+        "company3": "342.88",
+        "company4": "222.8",
+        "company5": "230.8"
+    },
+    {
+        "date": "6/30/09 0:00",
+        "company1": "118.78",
+        "company2": "340.75",
+        "company3": "319.07",
+        "company4": "253.35",
+        "company5": "267.5"
+    },
+    {
+        "date": "7/31/09 0:00",
+        "company1": "141.14",
+        "company2": "392.35",
+        "company3": "373.75",
+        "company4": "275.05",
+        "company5": "291.5"
+    },
+    {
+        "date": "8/31/09 0:00",
+        "company1": "140.03",
+        "company2": "335.9",
+        "company3": "332.79",
+        "company4": "270.85",
+        "company5": "259.95"
+    },
+    {
+        "date": "9/30/09 0:00",
+        "company1": "140.58",
+        "company2": "360.2",
+        "company3": "313.03",
+        "company4": "279.9",
+        "company5": "262.6"
+    },
+    {
+        "date": "10/30/09 0:00",
+        "company1": "164.23",
+        "company2": "332.65",
+        "company3": "332.75",
+        "company4": "287.1",
+        "company5": "283.5"
+    },
+    {
+        "date": "11/30/09 0:00",
+        "company1": "167.97",
+        "company2": "341.25",
+        "company3": "320.62",
+        "company4": "320",
+        "company5": "285.2"
+    },
+    {
+        "date": "12/31/09 0:00",
+        "company1": "179.72",
+        "company2": "387.7",
+        "company3": "336.08",
+        "company4": "335.05",
+        "company5": "264.8"
+    },
+    {
+        "date": "1/29/10 0:00",
+        "company1": "185.22",
+        "company2": "379.7",
+        "company3": "313.3",
+        "company4": "317.2",
+        "company5": "242.3"
+    },
+    {
+        "date": "2/26/10 0:00",
+        "company1": "181",
+        "company2": "355.4",
+        "company3": "334.69",
+        "company4": "316.15",
+        "company5": "236.2"
+    },
+    {
+        "date": "3/31/10 0:00",
+        "company1": "203.89",
+        "company2": "364.45",
+        "company3": "319.81",
+        "company4": "338.35",
+        "company5": "239.55"
+    },
+    {
+        "date": "4/30/10 0:00",
+        "company1": "207.88",
+        "company2": "409.1",
+        "company3": "330.97",
+        "company4": "343.15",
+        "company5": "239.8"
+    },
+    {
+        "date": "5/31/10 0:00",
+        "company1": "208.61",
+        "company2": "405.05",
+        "company3": "341.78",
+        "company4": "319",
+        "company5": "237.2"
+    },
+    {
+        "date": "6/30/10 0:00",
+        "company1": "230.18",
+        "company2": "410.9",
+        "company3": "371.35",
+        "company4": "338.5",
+        "company5": "267.55"
+    },
+    {
+        "date": "7/30/10 0:00",
+        "company1": "260.34",
+        "company2": "442",
+        "company3": "393.67",
+        "company4": "326.3",
+        "company5": "251.45"
+    },
+    {
+        "date": "8/31/10 0:00",
+        "company1": "276.27",
+        "company2": "425.8",
+        "company3": "409.95",
+        "company4": "303.25",
+        "company5": "264.5"
+    },
+    {
+        "date": "9/30/10 0:00",
+        "company1": "266.32",
+        "company2": "485.25",
+        "company3": "437.95",
+        "company4": "322.35",
+        "company5": "309.05"
+    },
+    {
+        "date": "10/29/10 0:00",
+        "company1": "268.78",
+        "company2": "456.95",
+        "company3": "413.65",
+        "company4": "352.95",
+        "company5": "294.7"
+    },
+    {
+        "date": "11/30/10 0:00",
+        "company1": "264.89",
+        "company2": "434.05",
+        "company3": "402.45",
+        "company4": "343.3",
+        "company5": "298.25"
+    },
+    {
+        "date": "12/31/10 0:00",
+        "company1": "287.87",
+        "company2": "437.25",
+        "company3": "413.5",
+        "company4": "369.8",
+        "company5": "312.9"
+    },
+    {
+        "date": "1/31/11 0:00",
+        "company1": "257.75",
+        "company2": "334.15",
+        "company3": "189.15",
+        "company4": "332.15",
+        "company5": "271.15"
+    },
+    {
+        "date": "2/28/11 0:00",
+        "company1": "240.07",
+        "company2": "321.75",
+        "company3": "168.18",
+        "company4": "299.65",
+        "company5": "282"
+    },
+    {
+        "date": "3/31/11 0:00",
+        "company1": "252.58",
+        "company2": "371.45",
+        "company3": "186.25",
+        "company4": "321.65",
+        "company5": "287.1"
+    },
+    {
+        "date": "4/29/11 0:00",
+        "company1": "277.46",
+        "company2": "368.8",
+        "company3": "184.65",
+        "company4": "309.5",
+        "company5": "285.2"
+    },
+    {
+        "date": "5/31/11 0:00",
+        "company1": "313.34",
+        "company2": "316.45",
+        "company3": "210.25",
+        "company4": "326.05",
+        "company5": "304.55"
+    },
+    {
+        "date": "6/30/11 0:00",
+        "company1": "318.51",
+        "company2": "297.5",
+        "company3": "239.6",
+        "company4": "331.05",
+        "company5": "343.65"
+    },
+    {
+        "date": "7/29/11 0:00",
+        "company1": "313.4",
+        "company2": "287.3",
+        "company3": "240.98",
+        "company4": "306.6",
+        "company5": "324"
+    },
+    {
+        "date": "8/30/11 0:00",
+        "company1": "328.61",
+        "company2": "247.75",
+        "company3": "244.53",
+        "company4": "280.7",
+        "company5": "320.4"
+    },
+    {
+        "date": "9/30/11 0:00",
+        "company1": "315.76",
+        "company2": "226.4",
+        "company3": "234.9",
+        "company4": "281.35",
+        "company5": "340.6"
+    },
+    {
+        "date": "10/31/11 0:00",
+        "company1": "315.96",
+        "company2": "207.5",
+        "company3": "234.53",
+        "company4": "295.4",
+        "company5": "375.8"
+    },
+    {
+        "date": "11/30/11 0:00",
+        "company1": "287.94",
+        "company2": "178.15",
+        "company3": "234.53",
+        "company4": "328.05",
+        "company5": "397.15"
+    },
+    {
+        "date": "12/30/11 0:00",
+        "company1": "259.24",
+        "company2": "170.85",
+        "company3": "224.3",
+        "company4": "319.9",
+        "company5": "407.4"
+    },
+    {
+        "date": "1/31/12 0:00",
+        "company1": "299.53",
+        "company2": "169.7",
+        "company3": "226.78",
+        "company4": "350.25",
+        "company5": "378.95"
+    },
+    {
+        "date": "2/29/12 0:00",
+        "company1": "317.06",
+        "company2": "188.5",
+        "company3": "260.2",
+        "company4": "316.95",
+        "company5": "380.2"
+    },
+    {
+        "date": "3/30/12 0:00",
+        "company1": "324.2",
+        "company2": "186.5",
+        "company3": "296.5",
+        "company4": "305.1",
+        "company5": "410.05"
+    },
+    {
+        "date": "4/30/12 0:00",
+        "company1": "352.68",
+        "company2": "185.15",
+        "company3": "280.9",
+        "company4": "312",
+        "company5": "417.6"
+    },
+    {
+        "date": "5/31/12 0:00",
+        "company1": "402.16",
+        "company2": "164.45",
+        "company3": "267.33",
+        "company4": "309.9",
+        "company5": "428"
+    },
+    {
+        "date": "6/29/12 0:00",
+        "company1": "388.86",
+        "company2": "163.45",
+        "company3": "262.68",
+        "company4": "316.55",
+        "company5": "454.5"
+    },
+    {
+        "date": "7/31/12 0:00",
+        "company1": "364.23",
+        "company2": "190.65",
+        "company3": "232.33",
+        "company4": "338.6",
+        "company5": "467.35"
+    },
+    {
+        "date": "8/31/12 0:00",
+        "company1": "364.07",
+        "company2": "177.15",
+        "company3": "250.5",
+        "company4": "376.45",
+        "company5": "515.1"
+    },
+    {
+        "date": "9/28/12 0:00",
+        "company1": "393.48",
+        "company2": "179.9",
+        "company3": "237.88",
+        "company4": "380.1",
+        "company5": "545.85"
+    },
+    {
+        "date": "10/31/12 0:00",
+        "company1": "387.12",
+        "company2": "198.75",
+        "company3": "241.83",
+        "company4": "363.3",
+        "company5": "546.6"
+    },
+    {
+        "date": "11/30/12 0:00",
+        "company1": "433.04",
+        "company2": "194.85",
+        "company3": "249.1",
+        "company4": "414.65",
+        "company5": "538.1"
+    },
+    {
+        "date": "12/31/12 0:00",
+        "company1": "443.26",
+        "company2": "179.55",
+        "company3": "249.38",
+        "company4": "414.25",
+        "company5": "524.85"
+    },
+    {
+        "date": "1/31/13 0:00",
+        "company1": "450.12",
+        "company2": "166.9",
+        "company3": "241",
+        "company4": "407.05",
+        "company5": "473.95"
+    },
+    {
+        "date": "2/28/13 0:00",
+        "company1": "427.22",
+        "company2": "171.85",
+        "company3": "240.75",
+        "company4": "359.85",
+        "company5": "443.05"
+    },
+    {
+        "date": "3/28/13 0:00",
+        "company1": "491.73",
+        "company2": "158.25",
+        "company3": "262.48",
+        "company4": "379.75",
+        "company5": "466.95"
+    },
+    {
+        "date": "4/30/13 0:00",
+        "company1": "468.13",
+        "company2": "162.2",
+        "company3": "289.93",
+        "company4": "405.3",
+        "company5": "583.8"
+    },
+    {
+        "date": "5/31/13 0:00",
+        "company1": "486.31",
+        "company2": "166.95",
+        "company3": "362.1",
+        "company4": "370.55",
+        "company5": "592.5"
+    },
+    {
+        "date": "6/28/13 0:00",
+        "company1": "463.65",
+        "company2": "162.7",
+        "company3": "337.15",
+        "company4": "391.95",
+        "company5": "585.15"
+    },
+    {
+        "date": "7/31/13 0:00",
+        "company1": "507.6",
+        "company2": "153.25",
+        "company3": "349.55",
+        "company4": "400.3",
+        "company5": "612.55"
+    },
+    {
+        "date": "8/30/13 0:00",
+        "company1": "420.95",
+        "company2": "135.1",
+        "company3": "351.2",
+        "company4": "416.95",
+        "company5": "631.45"
+    },
+    {
+        "date": "9/30/13 0:00",
+        "company1": "459.25",
+        "company2": "145.6",
+        "company3": "411",
+        "company4": "432.5",
+        "company5": "627.45"
+    },
+    {
+        "date": "10/31/13 0:00",
+        "company1": "539.45",
+        "company2": "151.15",
+        "company3": "469.78",
+        "company4": "413.2",
+        "company5": "609.85"
+    },
+    {
+        "date": "11/29/13 0:00",
+        "company1": "503.65",
+        "company2": "162.9",
+        "company3": "438.25",
+        "company4": "391.25",
+        "company5": "594.75"
+    },
+    {
+        "date": "12/31/13 0:00",
+        "company1": "490",
+        "company2": "158.25",
+        "company3": "460.3",
+        "company4": "400.8",
+        "company5": "570.65"
+    },
+    {
+        "date": "1/31/14 0:00",
+        "company1": "471.7",
+        "company2": "139.5",
+        "company3": "441.28",
+        "company4": "410.6",
+        "company5": "570.1"
+    },
+    {
+        "date": "2/28/14 0:00",
+        "company1": "473",
+        "company2": "150.15",
+        "company3": "444.2",
+        "company4": "384.3",
+        "company5": "549.25"
+    },
+    {
+        "date": "3/31/14 0:00",
+        "company1": "547.95",
+        "company2": "201.25",
+        "company3": "421.7",
+        "company4": "382.8",
+        "company5": "605.55"
+    },
+    {
+        "date": "4/30/14 0:00",
+        "company1": "505.15",
+        "company2": "209.45",
+        "company3": "432.03",
+        "company4": "397.45",
+        "company5": "567.5"
+    },
+    {
+        "date": "5/30/14 0:00",
+        "company1": "507.6",
+        "company2": "269.3",
+        "company3": "440.55",
+        "company4": "384.55",
+        "company5": "603.35"
+    },
+    {
+        "date": "6/30/14 0:00",
+        "company1": "594",
+        "company2": "292",
+        "company3": "504.2",
+        "company4": "438",
+        "company5": "620.35"
+    },
+    {
+        "date": "7/31/14 0:00",
+        "company1": "628.65",
+        "company2": "288.55",
+        "company3": "574.2",
+        "company4": "456.5",
+        "company5": "686.6"
+    },
+    {
+        "date": "8/28/14 0:00",
+        "company1": "624.2",
+        "company2": "346.05",
+        "company3": "621.45",
+        "company4": "514.2",
+        "company5": "742.45"
+    },
+    {
+        "date": "9/30/14 0:00",
+        "company1": "629.55",
+        "company2": "362.4",
+        "company3": "696.03",
+        "company4": "626.8",
+        "company5": "746"
+    },
+    {
+        "date": "10/31/14 0:00",
+        "company1": "657",
+        "company2": "338.05",
+        "company3": "765.4",
+        "company4": "666.55",
+        "company5": "738.35"
+    },
+    {
+        "date": "11/28/14 0:00",
+        "company1": "744.7",
+        "company2": "343.7",
+        "company3": "823.98",
+        "company4": "635.15",
+        "company5": "786.1"
+    },
+    {
+        "date": "12/31/14 0:00",
+        "company1": "752.3",
+        "company2": "330.85",
+        "company3": "920.05",
+        "company4": "626.4",
+        "company5": "760.1"
+    },
+    {
+        "date": "1/30/15 0:00",
+        "company1": "857.75",
+        "company2": "335.9",
+        "company3": "944.5",
+        "company4": "695.75",
+        "company5": "932.55"
+    },
+    {
+        "date": "2/28/15 0:00",
+        "company1": "818.6",
+        "company2": "316.25",
+        "company3": "1047.7",
+        "company4": "682.05",
+        "company5": "910.1"
+    },
+    {
+        "date": "3/31/15 0:00",
+        "company1": "811.3",
+        "company2": "307.7",
+        "company3": "1079.28",
+        "company4": "712.45",
+        "company5": "873.55"
+    },
+    {
+        "date": "4/30/15 0:00",
+        "company1": "762.45",
+        "company2": "306.45",
+        "company3": "1098.93",
+        "company4": "636",
+        "company5": "850.35"
+    },
+    {
+        "date": "5/29/15 0:00",
+        "company1": "787.05",
+        "company2": "359.15",
+        "company3": "1272.35",
+        "company4": "650.45",
+        "company5": "859.55"
+    },
+    {
+        "date": "6/30/15 0:00",
+        "company1": "755.35",
+        "company2": "330.95",
+        "company3": "1381.48",
+        "company4": "615.4",
+        "company5": "916.7"
+    },
+    {
+        "date": "7/31/15 0:00",
+        "company1": "882.8",
+        "company2": "375.45",
+        "company3": "1576.83",
+        "company4": "709.05",
+        "company5": "921.65"
+    },
+    {
+        "date": "8/31/15 0:00",
+        "company1": "848.6",
+        "company2": "352",
+        "company3": "1464.98",
+        "company4": "682.15",
+        "company5": "860.9"
+    },
+    {
+        "date": "9/30/15 0:00",
+        "company1": "841.6",
+        "company2": "353.1",
+        "company3": "1541",
+        "company4": "636.05",
+        "company5": "814.75"
+    },
+    {
+        "date": "10/30/15 0:00",
+        "company1": "830.65",
+        "company2": "389.45",
+        "company3": "1615.95",
+        "company4": "690.45",
+        "company5": "800.65"
+    },
+    {
+        "date": "11/30/15 0:00",
+        "company1": "838.5",
+        "company2": "355.8",
+        "company3": "1461.53",
+        "company4": "643.65",
+        "company5": "808.45"
+    },
+    {
+        "date": "12/31/15 0:00",
+        "company1": "883.55",
+        "company2": "393.8",
+        "company3": "1483.15",
+        "company4": "649.75",
+        "company5": "862.75"
+    },
+    {
+        "date": "1/29/16 0:00",
+        "company1": "869.9",
+        "company2": "361.7",
+        "company3": "1344.73",
+        "company4": "585.1",
+        "company5": "816.9"
+    },
+    {
+        "date": "2/29/16 0:00",
+        "company1": "846.1",
+        "company2": "312.85",
+        "company3": "1378.13",
+        "company4": "514.15",
+        "company5": "830.4"
+    },
+    {
+        "date": "3/31/16 0:00",
+        "company1": "868.4",
+        "company2": "390.3",
+        "company3": "1343.25",
+        "company4": "511.95",
+        "company5": "869.5"
+    },
+    {
+        "date": "4/29/16 0:00",
+        "company1": "866.25",
+        "company2": "428.05",
+        "company3": "1431.3",
+        "company4": "537",
+        "company5": "867.9"
+    },
+    {
+        "date": "5/31/16 0:00",
+        "company1": "984.85",
+        "company2": "416.95",
+        "company3": "1353.1",
+        "company4": "472.65",
+        "company5": "848.2"
+    },
+    {
+        "date": "6/30/16 0:00",
+        "company1": "1003.3",
+        "company2": "437.6",
+        "company3": "1379.48",
+        "company4": "501",
+        "company5": "898.55"
+    },
+    {
+        "date": "7/29/16 0:00",
+        "company1": "1114.15",
+        "company2": "485.95",
+        "company3": "1466.9",
+        "company4": "527.4",
+        "company5": "922.55"
+    },
+    {
+        "date": "8/31/16 0:00",
+        "company1": "1157.9",
+        "company2": "501.15",
+        "company3": "1730.28",
+        "company4": "572.95",
+        "company5": "917.05"
+    },
+    {
+        "date": "9/30/16 0:00",
+        "company1": "1160.7",
+        "company2": "548.05",
+        "company3": "1682",
+        "company4": "580.05",
+        "company5": "867.85"
+    },
+    {
+        "date": "10/30/16 0:00",
+        "company1": "1075.75",
+        "company2": "565.2",
+        "company3": "1657.85",
+        "company4": "578.75",
+        "company5": "839.15"
+    },
+    {
+        "date": "11/30/16 0:00",
+        "company1": "969.9",
+        "company2": "492.5",
+        "company3": "1516.45",
+        "company4": "566.6",
+        "company5": "844"
+    },
+    {
+        "date": "12/30/16 0:00",
+        "company1": "891.05",
+        "company2": "476.35",
+        "company3": "1443.15",
+        "company4": "568.8",
+        "company5": "826.35"
+    },
+    {
+        "date": "1/31/17 0:00",
+        "company1": "970.7",
+        "company2": "528.9",
+        "company3": "1565.23",
+        "company4": "575.35",
+        "company5": "855.4"
+    },
+    {
+        "date": "2/28/17 0:00",
+        "company1": "1024.2",
+        "company2": "565.1",
+        "company3": "1614.7",
+        "company4": "583.7",
+        "company5": "865.9"
+    },
+    {
+        "date": "3/31/17 0:00",
+        "company1": "1073.5",
+        "company2": "692.4",
+        "company3": "1687",
+        "company4": "592.95",
+        "company5": "911.75"
+    },
+    {
+        "date": "4/28/17 0:00",
+        "company1": "1120.45",
+        "company2": "694.45",
+        "company3": "1812.28",
+        "company4": "557.45",
+        "company5": "934.95"
+    },
+    {
+        "date": "5/31/17 0:00",
+        "company1": "1151.2",
+        "company2": "635.15",
+        "company3": "1766.33",
+        "company4": "516.35",
+        "company5": "1067"
+    },
+    {
+        "date": "6/30/17 0:00",
+        "company1": "1102.95",
+        "company2": "599.5",
+        "company3": "1845.03",
+        "company4": "555.6",
+        "company5": "1079.6"
+    },
+    {
+        "date": "7/31/17 0:00",
+        "company1": "1161.7",
+        "company2": "700.65",
+        "company3": "1960.8",
+        "company4": "560.1",
+        "company5": "1155.75"
+    },
+    {
+        "date": "8/31/17 0:00",
+        "company1": "1168.55",
+        "company2": "764.3",
+        "company3": "2115.48",
+        "company4": "571.9",
+        "company5": "1219.75"
+    },
+    {
+        "date": "9/29/17 0:00",
+        "company1": "1131.7",
+        "company2": "774.8",
+        "company3": "2172.13",
+        "company4": "586.1",
+        "company5": "1173.9"
+    },
+    {
+        "date": "10/31/17 0:00",
+        "company1": "1180.85",
+        "company2": "811.45",
+        "company3": "2319.75",
+        "company4": "627.6",
+        "company5": "1237.45"
+    },
+    {
+        "date": "11/30/17 0:00",
+        "company1": "1146.75",
+        "company2": "739.6",
+        "company3": "2407.8",
+        "company4": "600.9",
+        "company5": "1272.45"
+    },
+    {
+        "date": "12/29/17 0:00",
+        "company1": "1158.5",
+        "company2": "817.9",
+        "company3": "2354.63",
+        "company4": "608.5",
+        "company5": "1367.85"
+    },
+    {
+        "date": "1/31/18 0:00",
+        "company1": "1128.3",
+        "company2": "751.2",
+        "company3": "2342.08",
+        "company4": "592.15",
+        "company5": "1369.35"
+    },
+    {
+        "date": "2/28/18 0:00",
+        "company1": "1117.75",
+        "company2": "743.9",
+        "company3": "2497.13",
+        "company4": "589.65",
+        "company5": "1317.75"
+    },
+    {
+        "date": "3/28/18 0:00",
+        "company1": "1120.4",
+        "company2": "755.45",
+        "company3": "2485.3",
+        "company4": "545.45",
+        "company5": "1333.35"
+    },
+    {
+        "date": "4/30/18 0:00",
+        "company1": "1201.7",
+        "company2": "801.6",
+        "company3": "2756.6",
+        "company4": "607.4",
+        "company5": "1508.9"
+    },
+    {
+        "date": "5/31/18 0:00",
+        "company1": "1304.65",
+        "company2": "700.75",
+        "company3": "2961.98",
+        "company4": "524.8",
+        "company5": "1611.45"
+    },
+    {
+        "date": "6/29/18 0:00",
+        "company1": "1264.45",
+        "company2": "642.25",
+        "company3": "3106.88",
+        "company4": "616.65",
+        "company5": "1641.15"
+    },
+    {
+        "date": "7/31/18 0:00",
+        "company1": "1451.4",
+        "company2": "671.8",
+        "company3": "3271.1",
+        "company4": "641.35",
+        "company5": "1731.65"
+    },
+    {
+        "date": "8/31/18 0:00",
+        "company1": "1372.45",
+        "company2": "675.7",
+        "company3": "3368.38",
+        "company4": "662.15",
+        "company5": "1780.1"
+    },
+    {
+        "date": "9/28/18 0:00",
+        "company1": "1293.3",
+        "company2": "568.2",
+        "company3": "2911.75",
+        "company4": "654.05",
+        "company5": "1608.4"
+    },
+    {
+        "date": "10/31/18 0:00",
+        "company1": "1230.4",
+        "company2": "560",
+        "company3": "2822.05",
+        "company4": "629.25",
+        "company5": "1621.7"
+    },
+    {
+        "date": "11/30/18 0:00",
+        "company1": "1345.95",
+        "company2": "677.65",
+        "company3": "3169.75",
+        "company4": "540.85",
+        "company5": "1754"
+    },
+    {
+        "date": "12/31/18 0:00",
+        "company1": "1373.05",
+        "company2": "622.9",
+        "company3": "3115.4",
+        "company4": "519.5",
+        "company5": "1819.65"
+    },
+    {
+        "date": "1/31/19 0:00",
+        "company1": "1412.6",
+        "company2": "595.4",
+        "company3": "3197.7",
+        "company4": "517.3",
+        "company5": "1763.25"
+    },
+    {
+        "date": "2/28/19 0:00",
+        "company1": "1405.2",
+        "company2": "620.8",
+        "company3": "3056.9",
+        "company4": "554.55",
+        "company5": "1732.65"
+    },
+    {
+        "date": "3/29/19 0:00",
+        "company1": "1492.7",
+        "company2": "677.9",
+        "company3": "3085.5",
+        "company4": "528.9",
+        "company5": "1706.8"
+    },
+    {
+        "date": "4/30/19 0:00",
+        "company1": "1463.15",
+        "company2": "676.6",
+        "company3": "2896.05",
+        "company4": "565",
+        "company5": "1757.7"
+    },
+    {
+        "date": "5/31/19 0:00",
+        "company1": "1407.3",
+        "company2": "806.55",
+        "company3": "2921.95",
+        "company4": "558.85",
+        "company5": "1788.5"
+    },
+    {
+        "date": "6/28/19 0:00",
+        "company1": "1358.15",
+        "company2": "775.7",
+        "company3": "2743.7",
+        "company4": "553.45",
+        "company5": "1787.6"
+    },
+    {
+        "date": "7/31/19 0:00",
+        "company1": "1521.1",
+        "company2": "676.8",
+        "company3": "2605",
+        "company4": "521.1",
+        "company5": "1726.65"
+    },
+    {
+        "date": "8/30/19 0:00",
+        "company1": "1616.2",
+        "company2": "721.65",
+        "company3": "2701.65",
+        "company4": "472.45",
+        "company5": "1881.9"
+    },
+    {
+        "date": "9/30/19 0:00",
+        "company1": "1762.15",
+        "company2": "801.25",
+        "company3": "2944.15",
+        "company4": "425.5",
+        "company5": "1981.95"
+    },
+    {
+        "date": "10/31/19 0:00",
+        "company1": "1809.6",
+        "company2": "841.85",
+        "company3": "3266.6",
+        "company4": "466.85",
+        "company5": "2175.35"
+    },
+    {
+        "date": "11/29/19 0:00",
+        "company1": "1706.15",
+        "company2": "786.25",
+        "company3": "3057.7",
+        "company4": "466.7",
+        "company5": "2035.3"
+    },
+    {
+        "date": "12/31/19 0:00",
+        "company1": "1784.95",
+        "company2": "840.85",
+        "company3": "3027.8",
+        "company4": "478.2",
+        "company5": "1923"
+    },
+    {
+        "date": "1/31/20 0:00",
+        "company1": "1795.65",
+        "company2": "839.75",
+        "company3": "3200.7",
+        "company4": "446.9",
+        "company5": "2034.25"
+    },
+    {
+        "date": "2/28/20 0:00",
+        "company1": "1797.95",
+        "company2": "802.55",
+        "company3": "2970.2",
+        "company4": "402.1",
+        "company5": "2174.75"
+    },
+    {
+        "date": "3/31/20 0:00",
+        "company1": "1666.5",
+        "company2": "459.45",
+        "company3": "2688.95",
+        "company4": "422.85",
+        "company5": "2298.5"
+    },
+    {
+        "date": "4/30/20 0:00",
+        "company1": "1758.7",
+        "company2": "533.05",
+        "company3": "3165.75",
+        "company4": "589.6",
+        "company5": "2195"
+    },
+    {
+        "date": "5/29/20 0:00",
+        "company1": "1683.1",
+        "company2": "490.75",
+        "company3": "3378.85",
+        "company4": "648.15",
+        "company5": "2057.35"
+    },
+    {
+        "date": "6/30/20 0:00",
+        "company1": "1687.45",
+        "company2": "499.65",
+        "company3": "3603.8",
+        "company4": "640.25",
+        "company5": "2180"
+    },
+    {
+        "date": "7/31/20 0:00",
+        "company1": "1715.5",
+        "company2": "486.4",
+        "company3": "3823.6",
+        "company4": "720.15",
+        "company5": "2209.9"
+    },
+    {
+        "date": "8/31/20 0:00",
+        "company1": "1899.1",
+        "company2": "635.8",
+        "company3": "3726.05",
+        "company4": "713.55",
+        "company5": "2117.35"
+    },
+    {
+        "date": "9/30/20 0:00",
+        "company1": "1986.4",
+        "company2": "641.15",
+        "company3": "3798.15",
+        "company4": "774.7",
+        "company5": "2068.25"
+    },
+    {
+        "date": "10/30/20 0:00",
+        "company1": "2211.5",
+        "company2": "627.65",
+        "company3": "3473.25",
+        "company4": "754.5",
+        "company5": "2071.3"
+    },
+    {
+        "date": "11/27/20 0:00",
+        "company1": "2215.3",
+        "company2": "811.85",
+        "company3": "3637.95",
+        "company4": "745.6",
+        "company5": "2138.2"
+    },
+    {
+        "date": "12/31/20 0:00",
+        "company1": "2764.5",
+        "company2": "801.1",
+        "company3": "3576.35",
+        "company4": "819.95",
+        "company5": "2395.4"
+    },
+    {
+        "date": "1/1/21 15:31",
+        "company1": "2775.55",
+        "company2": "806.65",
+        "company3": "3567.8",
+        "company4": "826.6",
+        "company5": "2398"
+    }
+]
