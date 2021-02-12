@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import TopSection from "./components/top-section";
 import { Card } from "ui-neumorphism";
+
 // import Test from "./test";
 
 const App = () => {
@@ -54,6 +55,11 @@ const App = () => {
       <Navbar />
       <hr />
       <div className="container px-5 py-2">{stats()}</div>
+      <div className="container">
+        <div className="col-md-6 offset-md-3">
+        
+        </div>
+      </div>
     </div>
   );
 };
