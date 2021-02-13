@@ -38,12 +38,13 @@ export const onCalculatSubmit = async (dateFrom, dateTo, amount, company) => {
       companyReturns.push(Math.ceil(cReturn*x));
     }
   }
+  var unitsSum=0;
   for(var m=0;m<units.length;m++)
   {
-    currentValue+=parseInt(units[m]);
+    unitsSum=unitsSum+parseFloat(units[m]);
   }
-  currentValue *= data[data.length - 1][`${company}`];
-  absoluteReturns=(currentValue-investedMoney)%investedMoney;
+  currentValue=unitsSum*data[data.length - 1][`${company}`];
+  absoluteReturns=(currentValue-investedMoney)/investedMoney;
 };
 
 export const calculatedValues = () => {

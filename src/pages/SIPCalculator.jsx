@@ -79,9 +79,8 @@ const SIPCalculator = () => {
       curve: "smooth",
     },
     legend: {
-      show: true
+      show: true,
     },
-   
   };
 
   const sipForm = () => {
@@ -204,12 +203,16 @@ const SIPCalculator = () => {
             <tr>
               <th scope="row">5</th>
               <td>Absolute Returns</td>
-              <td>{numberWithCommas(result.returns)}</td>
+              <td>{numberWithCommas(result.returns)}%</td>
             </tr>
             <tr>
               <th scope="row">6</th>
               <td>Number of times Capital has grown</td>
-              <td>{numberWithCommas(Math.floor(result.returns / 100))}</td>
+              <td>
+                {numberWithCommas(
+                  Math.floor((result.currentValue / result.investedMoney) * 100)
+                )}
+              </td>
             </tr>
           </tbody>
         </table>
