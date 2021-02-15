@@ -210,7 +210,7 @@ const SIPCalculator = () => {
               <td>Number of times Capital has grown</td>
               <td>
                 {numberWithCommas(
-                  Math.floor((result.currentValue / result.investedMoney) * 100)
+                  Math.floor(result.currentValue / result.investedMoney)
                 )}
               </td>
             </tr>
